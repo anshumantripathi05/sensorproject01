@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 
-LOG_FILE = f"{datetime.now().strftime9('%m_%d_%Y %H_%M_%s')}.log"
+LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y %H_%M_%S')}.log"
 
 logs_path=os.path.join(os.getcwd(), "logs",LOG_FILE)
 
@@ -13,6 +13,6 @@ LOG_FILE_PATH = os.path.join(logs_path, LOG_FILE)
 
 logging.basicConfig(
     filename=LOG_FILE_PATH,
-    format="[%(asctime)s] %(lineno)d %(name)d - %(levelname)s - %(message)s",
+    format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
 )

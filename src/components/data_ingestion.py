@@ -64,12 +64,12 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e, sys)
         
-    def initiate_data_ingestion(slef) -> Path:
+    def initiate_data_ingestion(self) -> Path:
 
         logging.info('Entered initiated_data_ingestion method of data_integration class')
 
         try:
-            feature_store_file_path = Self.export_data_info_feature_store_file_path()
+            feature_store_file_path = self.export_data_into_feature_store_file_path()
 
             logging.info("got the data from mongodb")
 

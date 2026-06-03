@@ -1,11 +1,11 @@
 import sys
-from turtle import pd
 from typing import Dict, Tuple
 import os
-import pandas pd
+import pandas as pd
 import pickle
 import yaml
 import boto3
+
 
 from src.constant import *
 from src.exception import CustomException
