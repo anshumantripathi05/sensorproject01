@@ -14,7 +14,7 @@ The project automates the process of wafer fault detection using machine learnin
 
 ### Upload Interface
 
-![Upload Interface](screenshot/upload_interface.png)
+![Upload Interface](screenshots/upload_interface.png)
 
 Upload wafer sensor data in CSV format through the Flask web application.
 
@@ -22,7 +22,7 @@ Upload wafer sensor data in CSV format through the Flask web application.
 
 ### Input Sensor Dataset
 
-![Input Dataset](screenshot/test_data.png)
+![Input Dataset](screenshots/test_data.png)
 
 Sample wafer sensor measurements provided as input to the prediction system.
 
@@ -30,7 +30,7 @@ Sample wafer sensor measurements provided as input to the prediction system.
 
 ### Generated Prediction Report
 
-![Prediction Output](screenshot/prediction_file.png)
+![Prediction Output](screenshots/prediction_file.png)
 
 The trained machine learning model generates wafer quality predictions and exports the results as a downloadable CSV report.
 
@@ -117,13 +117,6 @@ sensorproject01/
 
 ## How to Run
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/wafer-fault-detection.git
-cd wafer-fault-detection
-```
-
 ### Install Dependencies
 
 ```bash
@@ -171,7 +164,3 @@ Example:
 | Bad |
 
 ---
-
-## License
-
-This project is intended for educational and learning purposes.
